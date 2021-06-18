@@ -1,0 +1,67 @@
+nav{
+    background-color: chocolate;
+    
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+li{
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+    color: rgb(255, 255, 255);
+}
+#home{
+    background-image: url(/pizzaImage.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+/* #image{
+    position: absolute;
+} */
+#header{
+    position: relative;
+    color: rgb(141, 219, 7);
+    text-align: center;
+    font-size: 50Px;
+}
+#about{
+    position: relative;
+} 
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+input[type=number], select{
+    border: 2px solid  chocolate;
+    border-radius: 5px;
+    width: 80%;
+    padding: 20px;
+    margin: 20px;
+
+}
+button[type=submit]{
+    background-color: rgb(141, 219, 7);
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 40%;
+
+}
+
+form{
+    background-color: chocolate;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
