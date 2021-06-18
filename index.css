@@ -17,7 +17,7 @@ a{
     color: rgb(255, 255, 255);
 }
 #home{
-    background-image: url(/pizzaImage.jpeg);
+    background-image: url("/pizzaImage.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 400px;
